@@ -18,8 +18,12 @@ body {
     width: 100%;
     background-color: var(--background-color);
     padding: 32px 40px;
+
+}
+
+.content {
+    padding: 32px 40px;
     border: 5px solid var(--border-color);
-    
 }
 
 hr{
@@ -30,7 +34,6 @@ hr{
 h1 {
     margin-bottom: 30px;
     font-style: italic;
-    font-weight: 400;
     font-size: 35px;
     text-align: center;
 }
@@ -73,11 +76,13 @@ img {
     padding: 5px;
     margin-left: 20px;
     margin-bottom: 20px;
+    width: 42%;
+    height: 280px;
 }
 
 .normal-paragraph {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.5;
-    padding-right: 15px;
+    padding-right: 5px;
 }
